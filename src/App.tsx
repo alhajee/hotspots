@@ -1,8 +1,13 @@
 import React from "react";
 import "./assets/css/App.css";
+import Map from "./components/Map";
 
 function App() {
-  return <div className="App text-purple-800">Hotspots</div>;
+  return (
+    <div className="App">
+      <Map />
+    </div>
+  );
 }
 
 export default App;
